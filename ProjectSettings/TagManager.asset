@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Boyfriend
   - Boyf_Arm
+  - NPC
   layers:
   - Default
   - TransparentFX

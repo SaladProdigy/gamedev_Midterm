@@ -193,7 +193,7 @@ GameObject:
   m_Layer: 0
   m_Name: Collider_Cube
   m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -278,7 +278,7 @@ GameObject:
   m_Layer: 0
   m_Name: Collider_Cube (3)
   m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -529,11 +529,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 256509431}
   m_LocalRotation: {x: 0.0048091477, y: 0.011994734, z: -0.00005715318, w: 0.99991655}
-  m_LocalPosition: {x: -8.21, y: -6.95, z: 19.62}
+  m_LocalPosition: {x: 0.07761288, y: -1.75, z: 0.460001}
   m_LocalScale: {x: 4.8434, y: 1, z: 6.381}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1862627941}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432523631
 GameObject:
@@ -812,7 +812,7 @@ GameObject:
   m_Layer: 0
   m_Name: Collider_Cube (2)
   m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -897,7 +897,7 @@ GameObject:
   m_Layer: 0
   m_Name: Collider_Cube (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1408,7 +1408,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destroyer_1
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1539,7 +1539,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4478757606355870, guid: 5fae889ee3a5fce4ba4bb597c54df70e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.2
+      value: -53.4
       objectReference: {fileID: 0}
     - target: {fileID: 4478757606355870, guid: 5fae889ee3a5fce4ba4bb597c54df70e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1588,7 +1588,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destroyer_2
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1677,6 +1677,11 @@ MonoBehaviour:
 --- !u!1 &1862627936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1481534074821592, guid: 5fae889ee3a5fce4ba4bb597c54df70e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1789828827}
+--- !u!4 &1862627941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4478757606355870, guid: 5fae889ee3a5fce4ba4bb597c54df70e,
     type: 2}
   m_PrefabInternal: {fileID: 1789828827}
 --- !u!1 &2008812010

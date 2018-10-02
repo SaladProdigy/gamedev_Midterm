@@ -18,7 +18,7 @@ public class Spawning : MonoBehaviour
 		{
 
 			//instantiate a new block
-			GameObject newBlock = Instantiate(peoplePrefab, new Vector3(player.transform.position.x, player.transform.position.y, 0.0f), Quaternion.identity) as GameObject;
+			GameObject newBlock = Instantiate(peoplePrefab, new Vector3(player.transform.position.x, player.transform.position.y, 0f), Quaternion.identity) as GameObject;
 			//newBlock.transform.parent = transform;
 			spawnDelay = .05f;
 			timeUntilSpawn = Random.Range(-0.1f, 0.1f) + spawnDelay;//slightly randomize the delay until the next block

@@ -13,7 +13,7 @@ public class Spawning : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 		
-		timeUntilSpawn -= Time.deltaTime;
+		/*timeUntilSpawn -= Time.deltaTime;
 		if (timeUntilSpawn <= 0f)
 		{
 
@@ -23,7 +23,7 @@ public class Spawning : MonoBehaviour
 			spawnDelay = .05f;
 			timeUntilSpawn = Random.Range(-0.1f, 0.1f) + spawnDelay;//slightly randomize the delay until the next block
 
-		}
+		}*/
 		
 	}
 }

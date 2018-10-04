@@ -21,12 +21,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1927" />
+          <entry key="cs" value="2063" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1927" />
+          <entry key="C#" value="2063" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,14 +87,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawning.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
               <folding>
-                <marker date="1538678475154" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538678475154" expanded="true" signature="117:813" ph="{...}" />
-                <marker date="1538678475154" expanded="true" signature="271:809" ph="{...}" />
-                <marker date="1538678475154" expanded="true" signature="323:806" ph="{...}" />
-                <marker date="1538678475154" expanded="true" signature="394:802" ph="{...}" />
+                <marker date="1538678812648" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538678812648" expanded="true" signature="80:165" ph="/* USAGE: Spawns people ... */" />
+                <marker date="1538678812648" expanded="true" signature="203:813" ph="{...}" />
+                <marker date="1538678812648" expanded="true" signature="324:810" ph="{...}" />
+                <marker date="1538678812648" expanded="true" signature="397:806" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -145,7 +145,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="240" />
     <option name="y" value="125" />
     <option name="width" value="1440" />
@@ -212,12 +212,12 @@
       <workItem from="1538060475150" duration="2847000" />
       <workItem from="1538243741180" duration="4636000" />
       <workItem from="1538489790850" duration="1394000" />
-      <workItem from="1538675542368" duration="2096000" />
+      <workItem from="1538675542368" duration="2433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10973000" />
+    <option name="totallyTimeSpent" value="11310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,14 +329,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawning.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
           <folding>
-            <marker date="1538678475154" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538678475154" expanded="true" signature="117:813" ph="{...}" />
-            <marker date="1538678475154" expanded="true" signature="271:809" ph="{...}" />
-            <marker date="1538678475154" expanded="true" signature="323:806" ph="{...}" />
-            <marker date="1538678475154" expanded="true" signature="394:802" ph="{...}" />
+            <marker date="1538678812648" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538678812648" expanded="true" signature="80:165" ph="/* USAGE: Spawns people ... */" />
+            <marker date="1538678812648" expanded="true" signature="203:813" ph="{...}" />
+            <marker date="1538678812648" expanded="true" signature="324:810" ph="{...}" />
+            <marker date="1538678812648" expanded="true" signature="397:806" ph="{...}" />
           </folding>
         </state>
       </provider>

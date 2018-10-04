@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//USAGE: Spawns people
+//NEED TO DO: Spawner picks a random range spawn the person at
 public class Spawning : MonoBehaviour
 {
 
@@ -10,10 +12,9 @@ public class Spawning : MonoBehaviour
 	float spawnDelay;
 	public GameObject player;
 
-	private void OnTriggerStay(Collider collision)
+	void Update()
 	{
-		if (collision.gameObject.CompareTag("Player"))
-		{
+		
 			timeUntilSpawn -= Time.deltaTime;
 
 			if (timeUntilSpawn <= 0f)
@@ -24,7 +25,7 @@ public class Spawning : MonoBehaviour
 					new Vector3(player.transform.position.x - 7f, player.transform.position.y, 0.5f),
 					Quaternion.identity) as GameObject;
 				//newBlock.transform.parent = transform;
-				spawnDelay = 0.1f;
+				spawnDelay = 0.05f;
 				timeUntilSpawn =
 					Random.Range(-0.1f, 0.1f) + spawnDelay; //slightly randomize the delay until the next block
 
@@ -32,4 +33,4 @@ public class Spawning : MonoBehaviour
 		}
 	}
 	
-}
+

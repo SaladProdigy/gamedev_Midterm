@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //USAGE: Spawns people
-//NEED TO DO: Spawner picks a random range spawn the person at
+//NEED TO DO: Spawner picks a random range spawn the person at (int randomNumber = Random.Range)
 public class Spawning : MonoBehaviour
 {
 

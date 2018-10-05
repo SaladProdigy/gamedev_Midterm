@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BoyfRayCast.cs" t="Include" />
+          <e p="ColliderPosition.cs" t="Include" />
           <e p="Destroying.cs" t="Include" />
           <e p="FirstPersonController.cs" t="Include" />
           <e p="PlayerArmController.cs" t="Include" />

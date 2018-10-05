@@ -17,7 +17,7 @@ public class BoyfRayCast : MonoBehaviour
 		Ray boyfRay = new Ray(transform.position, transform.forward); //the ray belongs to NPC boyfriend
 		
 		//STEP 2: Define max distance
-		float maxVisibility = 10f; //ray needs to be long to see player from a distance
+		float maxVisibility = 8f; //ray needs to be long to see player from a distance
 		
 		//STEP 2b: Add a Raycast Hit to see what it hit
 		RaycastHit hit;
@@ -30,28 +30,24 @@ public class BoyfRayCast : MonoBehaviour
 		//If Raycast does not hit player, boyf freezes
 		if (Physics.Raycast(boyfRay, out hit, maxVisibility))
 		{
-			int randomNumber = Random.Range(0,1);
-			
+			//int randomNumber = Random.Range(0, 1);
+
 			if (hit.transform.tag == "Player")
 			{
 				Debug.Log("Hitting Player");
-				
+
 				transform.Translate(0f, 0f, 0.02f);
 			}
 			else
 			{
-				//if less than 50, turn left else turn right
-				if (randomNumber < 1)
-				{
-					transform.Rotate(0f, -3f, 0f);
-				}
-				else
-				{
-					transform.Rotate(0f, 3f, 0f);
-				}
+				transform.Rotate(0f, 10f, 0f);
 			}
-			
+
 		}
-		
+		else
+		{
+			transform.Rotate(0f, 10, 0f);
+		}
+
 	}
 }

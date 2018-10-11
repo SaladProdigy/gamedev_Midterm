@@ -19,7 +19,7 @@ public class PlayerArmController : MonoBehaviour
 		
 		nervousScore += Time.deltaTime;
 
-		if (nervousScore == 100f)
+		if (nervousScore > 100f)
 		{
 			nervousText.text = "You Lose!";
 

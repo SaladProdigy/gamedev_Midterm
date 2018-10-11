@@ -22,22 +22,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4508" />
+          <entry key="cs" value="4740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4508" />
+          <entry key="C#" value="4740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="7" />
+          <entry key="cs" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="7" />
+          <entry key="C#" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -132,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawning.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -143,6 +143,22 @@
                 <marker date="1539267055713" expanded="true" signature="238:951" ph="{...}" />
                 <marker date="1539267055713" expanded="true" signature="366:949" ph="{...}" />
                 <marker date="1539267055713" expanded="true" signature="522:946" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../weekuhm_inClass/Assets/SCRIPTS/MouseBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+              <folding>
+                <marker date="1539268454341" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539268454341" expanded="true" signature="80:185" ph="/* usage: put this on a capsule with a Rigidbody ... */" />
+                <marker date="1539268454341" expanded="true" signature="228:1483" ph="{...}" />
+                <marker date="1539268454341" expanded="true" signature="448:1476" ph="{...}" />
+                <marker date="1539268454341" expanded="true" signature="452:655" ph="/* mouse look ... */" />
               </folding>
             </state>
           </provider>
@@ -159,6 +175,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroying.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../weekuhm_inClass/Assets/SCRIPTS/MouseBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../week6_InClass/Assets/Scripts/RaycastGrounded.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColliderPosition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -171,6 +188,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawning.cs" />
+        <option value="$PROJECT_DIR$/../weekuhm_inClass/Assets/SCRIPTS/MouseBehavior.cs" />
       </list>
     </option>
   </component>
@@ -248,12 +266,12 @@
       <workItem from="1538243741180" duration="4636000" />
       <workItem from="1538489790850" duration="1394000" />
       <workItem from="1538675542368" duration="8448000" />
-      <workItem from="1539264760776" duration="2288000" />
+      <workItem from="1539264760776" duration="3750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19613000" />
+    <option name="totallyTimeSpent" value="21075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +283,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -406,6 +424,20 @@
             <marker date="1539267055713" expanded="true" signature="238:951" ph="{...}" />
             <marker date="1539267055713" expanded="true" signature="366:949" ph="{...}" />
             <marker date="1539267055713" expanded="true" signature="522:946" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../weekuhm_inClass/Assets/SCRIPTS/MouseBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding>
+            <marker date="1539268454341" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539268454341" expanded="true" signature="80:185" ph="/* usage: put this on a capsule with a Rigidbody ... */" />
+            <marker date="1539268454341" expanded="true" signature="228:1483" ph="{...}" />
+            <marker date="1539268454341" expanded="true" signature="448:1476" ph="{...}" />
+            <marker date="1539268454341" expanded="true" signature="452:655" ph="/* mouse look ... */" />
           </folding>
         </state>
       </provider>

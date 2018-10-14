@@ -9,6 +9,7 @@ public class FirstPersonController : MonoBehaviour {
     public float moveSpeed = 10f;
 	public float cameraSpeed;
 	private Vector3 inputVector; //pass data from Update to FixedUpdate
+	public float upDownRotation;
 	
 	
 	// Update is called once per frame
@@ -20,14 +21,13 @@ public class FirstPersonController : MonoBehaviour {
 		
 		
 		transform.Rotate(0f, mouseX, 0f);
-		Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f);
-		
-		//stops rolling
-		Camera.main.transform.localEulerAngles -= new Vector3(
-			0,
-			0, 
-			Camera.main.transform.localEulerAngles.z
-			);
+		upDownRotation -= mouseY;
+		upDownRotation = Mathf.Clamp(upDownRotation, -80, 80);
+		Camera.main.transform.localEulerAngles = new Vector3(
+			upDownRotation,
+			0f,
+			0f
+		);
 		
 		//FIRST PERSON PLAYER MOVEMENT
 
@@ -39,6 +39,12 @@ public class FirstPersonController : MonoBehaviour {
 		
 		inputVector = transform.forward * v * moveSpeed;
 		inputVector += transform.right * h * moveSpeed;
+		
+		if (Input.GetMouseButtonDown(0))
+		{
+			Cursor.lockState = CursorLockMode.Locked; //lock cursor in center of screen
+			Cursor.visible = false; //hide the cursor too, just to be safe
+		}
 		
 		//Rotation w/ steady camera
 		/*if (Input.GetKey(KeyCode.A))

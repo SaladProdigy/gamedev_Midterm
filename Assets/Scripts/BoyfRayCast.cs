@@ -14,7 +14,9 @@ public class BoyfRayCast : MonoBehaviour
 		
 		//STEP 1: Define Ray
 
-		Ray boyfRay = new Ray(transform.position, transform.forward); //the ray belongs to NPC boyfriend
+		//set to -transform.right since unity doesn't correctly recognize the position of Boyf so 
+		//instead of forward, must be set to left
+		Ray boyfRay = new Ray(transform.position, -transform.right); //the ray belongs to NPC boyfriend
 		
 		//STEP 2: Define max distance
 		float maxVisibility = 8f; //ray needs to be long to see player from a distance
@@ -36,7 +38,7 @@ public class BoyfRayCast : MonoBehaviour
 			{
 				Debug.Log("Hitting Player");
 
-				transform.Translate(0f, 0f, 0.02f);
+				transform.Translate(-0.02f, 0f, 0f);
 			}
 			else
 			{

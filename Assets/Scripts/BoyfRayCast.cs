@@ -1,12 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //USAGE: Put this on boyfriend NPC so that he follows Player w/o need of spring joint
 //Script should allow boyfriend to try to locate player and freeze once they get to a certain point.
 //Put a timer on Freeze so that after a while boyfriend starts going crazy
 public class BoyfRayCast : MonoBehaviour
 {
+
+	public GameObject michaelText;
 
 	
 	// Update is called once per frame
@@ -19,7 +23,7 @@ public class BoyfRayCast : MonoBehaviour
 		Ray boyfRay = new Ray(transform.position, -transform.right); //the ray belongs to NPC boyfriend
 		
 		//STEP 2: Define max distance
-		float maxVisibility = 8f; //ray needs to be long to see player from a distance
+		float maxVisibility = 10f; //ray needs to be long to see player from a distance
 		
 		//STEP 2b: Add a Raycast Hit to see what it hit
 		RaycastHit hit;
@@ -39,16 +43,20 @@ public class BoyfRayCast : MonoBehaviour
 				Debug.Log("Hitting Player");
 
 				transform.Translate(-0.02f, 0f, 0f);
+
+				michaelText.SetActive(false);
 			}
 			else
 			{
 				transform.Rotate(0f, 10f, 0f);
+				michaelText.SetActive(true);
 			}
 
 		}
 		else
 		{
 			transform.Rotate(0f, 10, 0f);
+			michaelText.SetActive(true);
 		}
 
 	}

@@ -24,12 +24,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5122" />
+          <entry key="cs" value="5274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5122" />
+          <entry key="C#" value="5274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,10 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="394">
               <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
               <folding>
                 <marker date="1539697840334" expanded="false" signature="6:78" ph="..." />
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="220">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <marker date="1539696565603" expanded="false" signature="6:100" ph="..." />
                 <marker date="1539696565603" expanded="true" signature="102:250" ph="/* Brings Boyfriend closer to Player ... */" />
@@ -86,22 +86,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="220">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
-                <marker date="1539479174006" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539479174006" expanded="true" signature="80:341" ph="/* USAGE: Put this on boyfriend NPC so that he follows Player w/o need of spring joint ... */" />
-                <marker date="1539479174006" expanded="true" signature="382:1415" ph="{...}" />
-                <marker date="1539479174006" expanded="true" signature="440:1413" ph="{...}" />
-                <marker date="1539479174006" expanded="true" signature="447:605" ph="/* STEP 1: Define Ray ... */" />
-                <marker date="1539479174006" expanded="true" signature="1007:1075" ph="/* STEP 4: Cast ray ... */" />
-                <marker date="1539479174006" expanded="true" signature="1131:1361" ph="{...}" />
-                <marker date="1539479174006" expanded="true" signature="1218:1303" ph="{...}" />
-                <marker date="1539479174006" expanded="true" signature="1311:1356" ph="{...}" />
-                <marker date="1539479174006" expanded="true" signature="1368:1409" ph="{...}" />
+                <marker date="1539702065957" expanded="true" signature="6:114" ph="..." />
+                <marker date="1539702065957" expanded="true" signature="116:377" ph="/* USAGE: Put this on boyfriend NPC so that he follows Player w/o need of spring joint ... */" />
+                <marker date="1539702065957" expanded="true" signature="418:1585" ph="{...}" />
+                <marker date="1539702065957" expanded="true" signature="509:1583" ph="{...}" />
+                <marker date="1539702065957" expanded="true" signature="516:674" ph="/* STEP 1: Define Ray ... */" />
+                <marker date="1539702065957" expanded="true" signature="1077:1145" ph="/* STEP 4: Cast ray ... */" />
+                <marker date="1539702065957" expanded="true" signature="1201:1499" ph="{...}" />
+                <marker date="1539702065957" expanded="true" signature="1288:1408" ph="{...}" />
+                <marker date="1539702065957" expanded="true" signature="1416:1494" ph="{...}" />
+                <marker date="1539702065957" expanded="true" signature="1506:1579" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -190,11 +190,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ColliderPosition.cs" />
         <option value="$PROJECT_DIR$/../weekuhm_inClass/Assets/SCRIPTS/MouseBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawning.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroying.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs" />
       </list>
     </option>
   </component>
@@ -275,12 +275,12 @@
       <workItem from="1539264760776" duration="3750000" />
       <workItem from="1539452026406" duration="947000" />
       <workItem from="1539478852451" duration="2248000" />
-      <workItem from="1539696104506" duration="2164000" />
+      <workItem from="1539696104506" duration="3570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26434000" />
+    <option name="totallyTimeSpent" value="27840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,29 +400,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="394">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding>
-            <marker date="1539479174006" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539479174006" expanded="true" signature="80:341" ph="/* USAGE: Put this on boyfriend NPC so that he follows Player w/o need of spring joint ... */" />
-            <marker date="1539479174006" expanded="true" signature="382:1415" ph="{...}" />
-            <marker date="1539479174006" expanded="true" signature="440:1413" ph="{...}" />
-            <marker date="1539479174006" expanded="true" signature="447:605" ph="/* STEP 1: Define Ray ... */" />
-            <marker date="1539479174006" expanded="true" signature="1007:1075" ph="/* STEP 4: Cast ray ... */" />
-            <marker date="1539479174006" expanded="true" signature="1131:1361" ph="{...}" />
-            <marker date="1539479174006" expanded="true" signature="1218:1303" ph="{...}" />
-            <marker date="1539479174006" expanded="true" signature="1311:1356" ph="{...}" />
-            <marker date="1539479174006" expanded="true" signature="1368:1409" ph="{...}" />
+            <marker date="1539697840334" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539697840334" expanded="true" signature="80:167" ph="/* Allows movement of player ... */" />
+            <marker date="1539697840334" expanded="true" signature="219:1821" ph="{...}" />
+            <marker date="1539697840334" expanded="true" signature="438:1638" ph="{...}" />
+            <marker date="1539697840334" expanded="true" signature="1220:1373" ph="{...}" />
+            <marker date="1539697840334" expanded="true" signature="1409:1635" ph="/* if (Input.GetKey(KeyCode.A)) ... */" />
+            <marker date="1539697840334" expanded="true" signature="1737:1818" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="220">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="45" />
           <folding>
             <marker date="1539696565603" expanded="false" signature="6:100" ph="..." />
             <marker date="1539696565603" expanded="true" signature="102:250" ph="/* Brings Boyfriend closer to Player ... */" />
@@ -439,18 +436,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="220">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
-            <marker date="1539697840334" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539697840334" expanded="true" signature="80:167" ph="/* Allows movement of player ... */" />
-            <marker date="1539697840334" expanded="true" signature="219:1821" ph="{...}" />
-            <marker date="1539697840334" expanded="true" signature="438:1638" ph="{...}" />
-            <marker date="1539697840334" expanded="true" signature="1220:1373" ph="{...}" />
-            <marker date="1539697840334" expanded="true" signature="1409:1635" ph="/* if (Input.GetKey(KeyCode.A)) ... */" />
-            <marker date="1539697840334" expanded="true" signature="1737:1818" ph="{...}" />
+            <marker date="1539702065957" expanded="true" signature="6:114" ph="..." />
+            <marker date="1539702065957" expanded="true" signature="116:377" ph="/* USAGE: Put this on boyfriend NPC so that he follows Player w/o need of spring joint ... */" />
+            <marker date="1539702065957" expanded="true" signature="418:1585" ph="{...}" />
+            <marker date="1539702065957" expanded="true" signature="509:1583" ph="{...}" />
+            <marker date="1539702065957" expanded="true" signature="516:674" ph="/* STEP 1: Define Ray ... */" />
+            <marker date="1539702065957" expanded="true" signature="1077:1145" ph="/* STEP 4: Cast ray ... */" />
+            <marker date="1539702065957" expanded="true" signature="1201:1499" ph="{...}" />
+            <marker date="1539702065957" expanded="true" signature="1288:1408" ph="{...}" />
+            <marker date="1539702065957" expanded="true" signature="1416:1494" ph="{...}" />
+            <marker date="1539702065957" expanded="true" signature="1506:1579" ph="{...}" />
           </folding>
         </state>
       </provider>

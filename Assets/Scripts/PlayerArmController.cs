@@ -25,6 +25,7 @@ public class PlayerArmController : MonoBehaviour
 
 			Time.timeScale = 0;
 		}
+
 		
 	}
 	

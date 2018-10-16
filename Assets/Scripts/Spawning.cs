@@ -10,7 +10,7 @@ public class Spawning : MonoBehaviour
 
 	public GameObject peoplePrefab;
 	float timeUntilSpawn;
-	float spawnDelay = 2f;
+	float spawnDelay;
 	public GameObject Spawner;
 
 
@@ -30,7 +30,7 @@ public class Spawning : MonoBehaviour
 				new Vector3(Spawner.transform.position.x + randomNumberX, Spawner.transform.position.y, randomNumberZ),
 				Quaternion.identity) as GameObject;
 			//newBlock.transform.parent = transform;
-			spawnDelay = 0.0019f;
+			spawnDelay = 0.1f;
 			timeUntilSpawn =
 				Random.Range(-0.1f, 0.1f) + spawnDelay; //slightly randomize the delay until the next block
 

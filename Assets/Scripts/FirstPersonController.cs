@@ -22,7 +22,7 @@ public class FirstPersonController : MonoBehaviour {
 		
 		transform.Rotate(0f, mouseX, 0f);
 		upDownRotation -= mouseY;
-		upDownRotation = Mathf.Clamp(upDownRotation, -80, 80);
+		upDownRotation = Mathf.Clamp(upDownRotation, -25, 80);
 		Camera.main.transform.localEulerAngles = new Vector3(
 			upDownRotation,
 			0f,

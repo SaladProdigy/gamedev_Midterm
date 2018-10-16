@@ -24,12 +24,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5115" />
+          <entry key="cs" value="5122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5115" />
+          <entry key="C#" value="5122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,25 +46,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="484">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
               <folding>
-                <marker date="1539479638215" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539479638215" expanded="true" signature="80:167" ph="/* Allows movement of player ... */" />
-                <marker date="1539479638215" expanded="true" signature="219:1821" ph="{...}" />
-                <marker date="1539479638215" expanded="true" signature="438:1638" ph="{...}" />
-                <marker date="1539479638215" expanded="true" signature="1220:1373" ph="{...}" />
-                <marker date="1539479638215" expanded="true" signature="1409:1635" ph="/* if (Input.GetKey(KeyCode.A)) ... */" />
-                <marker date="1539479638215" expanded="true" signature="1737:1818" ph="{...}" />
+                <marker date="1539697840334" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539697840334" expanded="true" signature="80:167" ph="/* Allows movement of player ... */" />
+                <marker date="1539697840334" expanded="true" signature="219:1821" ph="{...}" />
+                <marker date="1539697840334" expanded="true" signature="438:1638" ph="{...}" />
+                <marker date="1539697840334" expanded="true" signature="1220:1373" ph="{...}" />
+                <marker date="1539697840334" expanded="true" signature="1409:1635" ph="/* if (Input.GetKey(KeyCode.A)) ... */" />
+                <marker date="1539697840334" expanded="true" signature="1737:1818" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="526">
@@ -191,10 +191,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ColliderPosition.cs" />
         <option value="$PROJECT_DIR$/../weekuhm_inClass/Assets/SCRIPTS/MouseBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawning.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroying.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
       </list>
     </option>
   </component>
@@ -204,7 +204,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="240" />
     <option name="y" value="125" />
     <option name="width" value="1440" />
@@ -275,12 +275,12 @@
       <workItem from="1539264760776" duration="3750000" />
       <workItem from="1539452026406" duration="947000" />
       <workItem from="1539478852451" duration="2248000" />
-      <workItem from="1539696104506" duration="458000" />
+      <workItem from="1539696104506" duration="1581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24728000" />
+    <option name="totallyTimeSpent" value="25851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,22 +343,6 @@
     <entry file="file://$PROJECT_DIR$/../week6_InClass/Assets/Scripts/RaycastGrounded.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <marker date="1539479638215" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539479638215" expanded="true" signature="80:167" ph="/* Allows movement of player ... */" />
-            <marker date="1539479638215" expanded="true" signature="219:1821" ph="{...}" />
-            <marker date="1539479638215" expanded="true" signature="438:1638" ph="{...}" />
-            <marker date="1539479638215" expanded="true" signature="1220:1373" ph="{...}" />
-            <marker date="1539479638215" expanded="true" signature="1409:1635" ph="/* if (Input.GetKey(KeyCode.A)) ... */" />
-            <marker date="1539479638215" expanded="true" signature="1737:1818" ph="{...}" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destroying.cs">
@@ -451,6 +435,22 @@
             <marker date="1539696565603" expanded="true" signature="952:1127" ph="{...}" />
             <marker date="1539696565603" expanded="true" signature="997:1124" ph="{...}" />
             <marker date="1539696565603" expanded="true" signature="1075:1120" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <marker date="1539697840334" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539697840334" expanded="true" signature="80:167" ph="/* Allows movement of player ... */" />
+            <marker date="1539697840334" expanded="true" signature="219:1821" ph="{...}" />
+            <marker date="1539697840334" expanded="true" signature="438:1638" ph="{...}" />
+            <marker date="1539697840334" expanded="true" signature="1220:1373" ph="{...}" />
+            <marker date="1539697840334" expanded="true" signature="1409:1635" ph="/* if (Input.GetKey(KeyCode.A)) ... */" />
+            <marker date="1539697840334" expanded="true" signature="1737:1818" ph="{...}" />
           </folding>
         </state>
       </provider>

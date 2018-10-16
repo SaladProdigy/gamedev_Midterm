@@ -16,7 +16,7 @@ public class PlayerArmController : MonoBehaviour
 	{
 		nervousText.text = "Boyfriend Meter";
 		nervousText.text += "\nNervous Level: " + nervousScore.ToString();
-		
+
 		nervousScore += Time.deltaTime;
 
 		if (nervousScore > 100f)
@@ -26,16 +26,16 @@ public class PlayerArmController : MonoBehaviour
 			Time.timeScale = 0;
 		}
 
-		
+
 	}
-	
+
 	void OnTriggerStay(Collider collision)
 	{
 		if (collision.gameObject.CompareTag("Boyf_Arm"))
 		{
 			Debug.Log("Being Touched");
 
-			if (Input.GetKey(KeyCode.Space))
+			if (Input.GetMouseButtonDown(0))
 			{
 				Debug.Log("Being Held");
 
@@ -48,4 +48,18 @@ public class PlayerArmController : MonoBehaviour
 		}
 	}
 
+	private void OnCollisionStay(Collision collision)
+	{
+		if  (collision.gameObject.tag == "NPC")
+		{
+			
+			Debug.Log("Touching Humans");
+
+			if (Input.GetMouseButtonDown(0))
+			{
+				Destroy(collision.gameObject);
+			}
+		}
+	}
 }
+

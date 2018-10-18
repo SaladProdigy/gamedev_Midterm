@@ -23,7 +23,7 @@ public class BoyfRayCast : MonoBehaviour
 		Ray boyfRay = new Ray(transform.position, -transform.right); //the ray belongs to NPC boyfriend
 		
 		//STEP 2: Define max distance
-		float maxVisibility = 10f; //ray needs to be long to see player from a distance
+		float maxVisibility = 16f; //ray needs to be long to see player from a distance
 		
 		//STEP 2b: Add a Raycast Hit to see what it hit
 		RaycastHit hit;

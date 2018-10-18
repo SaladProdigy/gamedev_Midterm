@@ -11,6 +11,14 @@ public class PlayerArmController : MonoBehaviour
 {
 	public float nervousScore = 50f;
 	public Text nervousText;
+	
+	public float thrust;
+	public Rigidbody rb;
+
+	void Start()
+	{
+		rb = GetComponent<Rigidbody>();
+	}
 
 	void Update()
 	{
@@ -26,6 +34,11 @@ public class PlayerArmController : MonoBehaviour
 			Time.timeScale = 0;
 		}
 
+		if (nervousScore < 0)
+		{
+			nervousScore = 0;;
+		}
+
 
 	}
 
@@ -35,11 +48,11 @@ public class PlayerArmController : MonoBehaviour
 		{
 			Debug.Log("Being Touched");
 
-			if (Input.GetMouseButtonDown(0))
+			if (Input.GetMouseButton(0))
 			{
 				Debug.Log("Being Held");
 
-				nervousScore -= 0.1f;
+				nervousScore -= 0.5f;
 
 				Debug.Log("Score Going Down");
 
@@ -50,14 +63,21 @@ public class PlayerArmController : MonoBehaviour
 
 	private void OnCollisionStay(Collision collision)
 	{
+		
+		float force = 3;
+		Vector3 direction = new Vector3(-10 ,20, 0);
+		
 		if  (collision.gameObject.tag == "NPC")
 		{
 			
 			Debug.Log("Touching Humans");
 
-			if (Input.GetMouseButtonDown(0))
+			if (Input.GetMouseButton(0))
 			{
-				Destroy(collision.gameObject);
+				
+				Debug.Log("Pushing");
+				rb.AddForce(direction * thrust);
+				//rb.AddForce(transform.forward * thrust);
 			}
 		}
 	}

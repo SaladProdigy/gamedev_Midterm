@@ -9,9 +9,14 @@ public class WinState : MonoBehaviour
 	public GameObject winText;
 
 
-	private void OnTriggerEnter(Collider other)
+	void Start()
 	{
-		if (other.gameObject.tag == "Boyfriend")
+		winText.SetActive(false);
+	}
+	
+	private void OnTriggerEnter(Collider collision)
+	{
+		if (collision.gameObject.tag == "Boyfriend")
 		{
 			Time.timeScale = 0;
 			winText.SetActive(true);

@@ -11,7 +11,7 @@ public class WinState : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.tag == "WinState")
+		if (other.gameObject.tag == "Boyfriend")
 		{
 			Time.timeScale = 0;
 			gameObject.SetActive(winText);

@@ -30,7 +30,7 @@ public class Spawning : MonoBehaviour
 				new Vector3(Spawner.transform.position.x + randomNumberX, Spawner.transform.position.y, randomNumberZ),
 				Quaternion.identity) as GameObject;
 			//newBlock.transform.parent = transform;
-			spawnDelay = 0.1f;
+			spawnDelay = 0.2f;
 			timeUntilSpawn =
 				Random.Range(-0.1f, 0.1f) + spawnDelay; //slightly randomize the delay until the next block
 

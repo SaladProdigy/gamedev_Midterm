@@ -42,7 +42,7 @@ public class BoyfRayCast : MonoBehaviour
 			{
 				Debug.Log("Hitting Player");
 
-				transform.Translate(-0.02f, 0f, 0f);
+				transform.Translate(-0.07f, 0f, 0f);
 
 				michaelText.SetActive(false);
 			}

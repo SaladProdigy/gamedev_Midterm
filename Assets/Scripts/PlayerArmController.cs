@@ -43,7 +43,7 @@ public class PlayerArmController : MonoBehaviour
 
 		if (nervousScore < 0)
 		{
-			nervousScore = 0;;
+			nervousScore = 0;
 		}
 
 		if (Input.GetKeyDown(KeyCode.R))

@@ -24,12 +24,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5892" />
+          <entry key="cs" value="5903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5892" />
+          <entry key="C#" value="5903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,23 +64,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="566">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
-                <marker date="1539713555181" expanded="false" signature="6:100" ph="..." />
-                <marker date="1539713555181" expanded="true" signature="102:250" ph="/* Brings Boyfriend closer to Player ... */" />
-                <marker date="1539713555181" expanded="true" signature="299:1129" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="377:624" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="552:619" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="665:900" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="719:897" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="791:892" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="952:1127" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="997:1124" ph="{...}" />
-                <marker date="1539713555181" expanded="true" signature="1075:1120" ph="{...}" />
+                <marker date="1539874870201" expanded="false" signature="6:100" ph="..." />
+                <marker date="1539874870201" expanded="true" signature="102:250" ph="/* Brings Boyfriend closer to Player ... */" />
+                <marker date="1539874870201" expanded="true" signature="299:1121" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="377:614" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="542:609" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="655:892" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="709:889" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="781:884" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="944:1119" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="989:1116" ph="{...}" />
+                <marker date="1539874870201" expanded="true" signature="1067:1112" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -148,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawning.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -204,8 +204,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoyfRayCast.cs" />
         <option value="$PROJECT_DIR$/../week8_InClass/Assets/Scripts/SoundPlaybackDemo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs" />
       </list>
     </option>
   </component>
@@ -288,12 +288,12 @@
       <workItem from="1539478852451" duration="2248000" />
       <workItem from="1539696104506" duration="4707000" />
       <workItem from="1539713024760" duration="568000" />
-      <workItem from="1539873047495" duration="1422000" />
+      <workItem from="1539873047495" duration="1761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30967000" />
+    <option name="totallyTimeSpent" value="31306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,26 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="46" />
-          <folding>
-            <marker date="1539713555181" expanded="false" signature="6:100" ph="..." />
-            <marker date="1539713555181" expanded="true" signature="102:250" ph="/* Brings Boyfriend closer to Player ... */" />
-            <marker date="1539713555181" expanded="true" signature="299:1129" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="377:624" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="552:619" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="665:900" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="719:897" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="791:892" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="952:1127" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="997:1124" ph="{...}" />
-            <marker date="1539713555181" expanded="true" signature="1075:1120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawning.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -471,6 +451,26 @@
             <marker date="1539874530695" expanded="true" signature="238:965" ph="{...}" />
             <marker date="1539874530695" expanded="true" signature="358:963" ph="{...}" />
             <marker date="1539874530695" expanded="true" signature="514:960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerArmController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <marker date="1539874870201" expanded="false" signature="6:100" ph="..." />
+            <marker date="1539874870201" expanded="true" signature="102:250" ph="/* Brings Boyfriend closer to Player ... */" />
+            <marker date="1539874870201" expanded="true" signature="299:1121" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="377:614" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="542:609" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="655:892" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="709:889" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="781:884" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="944:1119" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="989:1116" ph="{...}" />
+            <marker date="1539874870201" expanded="true" signature="1067:1112" ph="{...}" />
           </folding>
         </state>
       </provider>

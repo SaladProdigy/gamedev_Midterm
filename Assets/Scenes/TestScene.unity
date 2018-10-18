@@ -1609,7 +1609,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 977e62f3076590d4eb47e73c89fdfd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  peoplePrefab: {fileID: 1862627936}
+  Prefab:
+  - {fileID: 1730153310840262, guid: 3ea378d23a961464fbb41d566003b79c, type: 2}
+  - {fileID: 1394189654891616, guid: 2c9941de22237e242972da2c45725033, type: 2}
+  - {fileID: 1403799871664514, guid: 376c0ccc676dd934d820dd1620592c5b, type: 2}
+  - {fileID: 1964400213621872, guid: 464b35bdc1b7d4e45ba4e269f45193d6, type: 2}
   Spawner: {fileID: 344011724}
 --- !u!1 &364793786
 GameObject:
@@ -5287,7 +5291,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f2f2cba983c9a547ab915ff5a81c7a7, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7f2f2cba983c9a547ab915ff5a81c7a7, type: 3}
       propertyPath: m_TagString
@@ -7432,7 +7436,7 @@ Transform:
   - {fileID: 2069632602}
   - {fileID: 534669905}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1345998247
 MonoBehaviour:
@@ -7487,7 +7491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 977e62f3076590d4eb47e73c89fdfd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  peoplePrefab: {fileID: 1862627936}
+  Prefab: []
   Spawner: {fileID: 344011724}
 --- !u!1 &1358767939
 GameObject:
@@ -9940,7 +9944,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4478757606355870, guid: 5fae889ee3a5fce4ba4bb597c54df70e, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 54903041576044400, guid: 5fae889ee3a5fce4ba4bb597c54df70e,
         type: 2}
@@ -10241,7 +10245,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4675629977351462, guid: 3ea378d23a961464fbb41d566003b79c, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1730153310840262, guid: 3ea378d23a961464fbb41d566003b79c, type: 2}
       propertyPath: m_Name
@@ -10381,11 +10385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   michaelText: {fileID: 677789269}
---- !u!1 &1862627936 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1481534074821592, guid: 5fae889ee3a5fce4ba4bb597c54df70e,
-    type: 2}
-  m_PrefabInternal: {fileID: 1789828827}
 --- !u!1001 &1870635312
 Prefab:
   m_ObjectHideFlags: 0

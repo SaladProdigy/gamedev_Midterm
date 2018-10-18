@@ -17,7 +17,7 @@ public class PlayerArmController : MonoBehaviour
 		nervousText.text = "Boyfriend Meter";
 		nervousText.text += "\nNervous Level: " + nervousScore.ToString();
 
-		nervousScore += Time.deltaTime;
+		nervousScore += .01f;
 
 		if (nervousScore > 100f)
 		{
@@ -39,7 +39,7 @@ public class PlayerArmController : MonoBehaviour
 			{
 				Debug.Log("Being Held");
 
-				nervousScore = 10f;
+				nervousScore -= 0.1f;
 
 				Debug.Log("Score Going Down");
 

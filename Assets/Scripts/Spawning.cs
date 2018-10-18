@@ -26,10 +26,9 @@ public class Spawning : MonoBehaviour
 
 
 			//instantiate a new block
-			GameObject newBlock = Instantiate(Prefab[UnityEngine.Random.Range(0,4)],
+			GameObject emptyObject = Instantiate(Prefab[Random.Range(0,3)],
 				new Vector3(Spawner.transform.position.x + randomNumberX, Spawner.transform.position.y, randomNumberZ),
 				Quaternion.identity) as GameObject;
-			//newBlock.transform.parent = transform;
 			spawnDelay = 0.2f;
 			timeUntilSpawn =
 				Random.Range(-0.1f, 0.1f) + spawnDelay; //slightly randomize the delay until the next block

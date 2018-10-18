@@ -7,6 +7,7 @@ TagManager:
   - Boyfriend
   - Boyf_Arm
   - NPC
+  - WinState
   layers:
   - Default
   - TransparentFX

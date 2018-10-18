@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 //Brings Boyfriend closer to Player
 //If Boyfriend is too far away, he gets Nervous
@@ -11,9 +12,14 @@ public class PlayerArmController : MonoBehaviour
 {
 	public float nervousScore = 50f;
 	public Text nervousText;
+
+	private bool isPaused;
 	
 	public float thrust;
 	public Rigidbody rb;
+	
+	public AudioSource calmMusic;
+	public AudioSource peopleYelling;
 
 	void Start()
 	{
@@ -24,6 +30,7 @@ public class PlayerArmController : MonoBehaviour
 	{
 		nervousText.text = "Boyfriend Meter";
 		nervousText.text += "\nNervous Level: " + nervousScore.ToString();
+		
 
 		nervousScore += .01f;
 
@@ -39,6 +46,10 @@ public class PlayerArmController : MonoBehaviour
 			nervousScore = 0;;
 		}
 
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			SceneManager.LoadScene("TestScene", LoadSceneMode.Single);
+		}
 
 	}
 
@@ -47,19 +58,23 @@ public class PlayerArmController : MonoBehaviour
 		if (collision.gameObject.CompareTag("Boyf_Arm"))
 		{
 			Debug.Log("Being Touched");
-
+			
+			
 			if (Input.GetMouseButton(0))
 			{
 				Debug.Log("Being Held");
 
-				nervousScore -= 0.5f;
-
+				nervousScore -= 0.1f;
+				
 				Debug.Log("Score Going Down");
-
+				
+				calmMusic.PlayOneShot(calmMusic.clip);
+				
 			}
 
 		}
 	}
+
 
 	private void OnCollisionStay(Collision collision)
 	{
@@ -78,6 +93,9 @@ public class PlayerArmController : MonoBehaviour
 				Debug.Log("Pushing");
 				rb.AddForce(direction * thrust);
 				//rb.AddForce(transform.forward * thrust);
+				//Add dumb voice lines
+				
+				peopleYelling.PlayOneShot(peopleYelling.clip);
 			}
 		}
 	}

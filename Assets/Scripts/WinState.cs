@@ -14,7 +14,7 @@ public class WinState : MonoBehaviour
 		if (other.gameObject.tag == "Boyfriend")
 		{
 			Time.timeScale = 0;
-			gameObject.SetActive(winText);
+			winText.SetActive(true);
 		}
 	}
 }

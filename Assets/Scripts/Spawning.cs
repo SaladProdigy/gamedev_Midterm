@@ -24,7 +24,6 @@ public class Spawning : MonoBehaviour
 		if (timeUntilSpawn <= 0f)
 		{
 
-
 			//instantiate a new block
 			GameObject emptyObject = Instantiate(Prefab[Random.Range(0,3)],
 				new Vector3(Spawner.transform.position.x + randomNumberX, Spawner.transform.position.y, randomNumberZ),

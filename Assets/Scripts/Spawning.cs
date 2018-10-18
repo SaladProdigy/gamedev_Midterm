@@ -8,12 +8,12 @@ using UnityEngine.Serialization;
 public class Spawning : MonoBehaviour
 {
 
-	public GameObject peoplePrefab;
+	public GameObject[] Prefab;
 	float timeUntilSpawn;
 	float spawnDelay;
 	public GameObject Spawner;
 
-
+	
 	void Update()
 	{
 		int randomNumberX = Random.Range(-1, -3);
@@ -26,7 +26,7 @@ public class Spawning : MonoBehaviour
 
 
 			//instantiate a new block
-			GameObject newBlock = Instantiate(peoplePrefab,
+			GameObject newBlock = Instantiate(Prefab[UnityEngine.Random.Range(0,4)],
 				new Vector3(Spawner.transform.position.x + randomNumberX, Spawner.transform.position.y, randomNumberZ),
 				Quaternion.identity) as GameObject;
 			//newBlock.transform.parent = transform;
